@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+   /* div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }*/
+    </style>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/
+bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd
+/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parlad Project</title>
+    <link rel="stylesheet"  type="text/css" href="style.css">
+</head>
+<body>
+  <div class="background">
+    <nav class="navbar navbar-expand-md  bg-dark  navbar-dark fixed-top">
+      <div class="container">
+      <a class="navbar-brand text-primary font-weight bold">ABC Research Journal</a>
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#About">About Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Genesis">Genesis of Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " href="#Impact">Impact</a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#Testimonials">Testimonials</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#View">View and Download </a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#Share">Share your Thoughts</a>
+              </li>     
+          </ul>
+        </div>
+        </div>  
+      </nav>
+  </div>
+      <div class="container" id="About">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-10">
+            <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam earum natus 
+        minima, beatae consequatur odit neque aut. Aliquid quod soluta quam magnam 
+        quasi, cumque alias reprehenderit vel deserunt sequi itaque.</p>
+      </div>
+      </div>
+      </div>
+      <div class="container" id="Genesis">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-10">
+            <h1>Genesis</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus quasi 
+          nesciunt quidem, labore deleniti nemo dolore accusantium laboriosam 
+          molestiae quis suscipit quae officiis possimus non distinctio excepturi 
+          vel sint!</p>
+          </div>
+          </div>
+      </div>
+      <div class="container" id="Impact">
+        <div class="row">
+          <div class="col-xlg-12 col-lg-12 col-md-12 col-sm-10 col-10">
+            <h1>Impact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem adipisci
+           quibusdam obcaecati hic suscipit, a optio nulla, quasi architecto quas 
+           rem similique libero voluptas sunt aut numquam enim in quae.</p>
+           </div>
+           </div>
+      </div>
+      <div class="container" id="Testimonials">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-10">
+            <h1>Testimonials</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde porro 
+          aperiam, ea maxime, at laudantium incidunt est ut nemo quae iste 
+          voluptatibus dicta dolore aut saepe, quos debitis. Non, unde.</p>
+      </div>
+      </div>
+      </div>
+      
+        
+  <div class="container" id="Share">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-10 col-10">
+    <h1>Share Your Thoughts</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam consectetur 
+  exercitationem maiores soluta modi. Veritatis atque aliquam officiis necessitatibus 
+  quod, voluptates, repellendus ex, saepe veniam beatae rem temporibus id eius.</p>
+  </div>
+  </div>
+  </div>
+       <form action="#" method="post" onsubmit="return validation();">
+        <div>
+            <label for="fname"> Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+             <br><br>
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="Your Email..">
+            <br><br>
+            <label for="who"></label>Who Are You<br>
+            <select id="who" name="who are you">
+              <option value="">Student</option>
+              <option value="">Researcher</option>
+              <option value="">Professional</option>
+              <option value="">Others</option>
+            </select>
+          <br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+
+  <div id="eresult" style="color:red;"></div>
+</body>
+<script type="text/javascript">
+function validation()
+{
+  var name=document.getElementById('name').value;
+  var email=document.getElementById('email').value;
+  if(name=='')
+  {
+    document.getElementById('eresult').innerHTML="ALL FIELDS ARE REQUIRED";
+    //alert("field is empty")
+    return false;
+  }
+  else if(name.length<2)
+  {
+  document.getElementById('eresult').innerHTML="characters should not be less than 2"
+  }
+  else
+  {
+    return true;
+  }
+}
+</script>
+</html>
